@@ -28,8 +28,10 @@ class _BottomnavbarState extends State<Bottomnavbar> {
       backgroundColor: Colors.white,
 
       bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: Colors.white,
          iconSize: 35,
           currentIndex: selectedIndex,
+          elevation: 5,
           selectedItemColor: Colors.green,
           unselectedItemColor: Colors.black45,
           type: BottomNavigationBarType.fixed,

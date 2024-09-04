@@ -17,42 +17,42 @@ class Product {
 
 final List<Product> product = [
   Product(
-    image: 'image/plan_tree/2.png',
+    image: 'assets/image/plant_tree/2.png',
     title: 'Succulent Plant',
     price: 29.99,
     description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
   ),
   Product(
-    image: 'image/5.png',
+    image: 'assets/image/plant_tree/5.png',
     title: 'Dragon Plant',
     price: 25.99,
     description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
   ),
   Product(
-    image: 'image/6.png',
+    image: 'assets/image/plant_tree/6.png',
     title: 'Raevnea Plant',
     price: 22.99,
     description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
   ),
   Product(
-    image: 'image/a.png',
+    image: 'assets/image/plant_tree/a.png',
     title: 'Potted Plant',
     price: 24.99,
     description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
   ),
   Product(
-    image: 'image/4.png',
+    image: 'assets/image/plant_tree/4.png',
     title: 'Ipsum Plant',
     price: 50.99,
     description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
   ),
   Product(
-    image: 'image/3.png',
+    image: 'assets/image/plant_tree/3.png',
     title: 'AC Plant',
     price: 99.99,
     description:

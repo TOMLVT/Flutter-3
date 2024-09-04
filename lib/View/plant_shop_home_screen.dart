@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:plan_shop_app/Model/plant_model.dart';
+import 'package:plan_shop_app/View/Product_detail.dart';
 
 class PlantShopHomeScreen extends StatefulWidget {
   const PlantShopHomeScreen({super.key});
@@ -72,8 +73,9 @@ class _PlantShopHomeScreenState extends State<PlantShopHomeScreen> {
                 itemBuilder: (context, index) {
                   var shopProduct = product[index];
                   return GestureDetector(
+                    // action change page-----------------------------
                     onTap: () {
-                      // Handle onTap event
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => ProductDetail(product: product[index])));
                     },
                     child: Container(
                       padding: EdgeInsets.all(15),
@@ -101,15 +103,20 @@ class _PlantShopHomeScreenState extends State<PlantShopHomeScreen> {
                                 ),
                               ),
                               Center(
-                                child: Image.asset(
-                                  shopProduct.image,
-                                  width: 200,
-                                  fit: BoxFit.cover,
+                                child: Hero(
+                                  tag : shopProduct.image,
+                                  child: Image.asset(
+                                    shopProduct.image,
+                                    width: 200,
+                                    fit: BoxFit.cover,
+                                  ),
                                 ),
                               ),
                               GestureDetector(
                                 onTap: () {
-
+                                  setState(() {
+                                    shopProduct.isFavorited = !shopProduct.isFavorited;
+                                  });
                                 },
                                 child: Align(
                                   alignment: Alignment.topRight,

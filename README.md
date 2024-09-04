@@ -1,6 +1,6 @@
 # plan_shop_app
 
-A new Flutter project.
+<img src="https://github.com/user-attachments/assets/2aba022b-1d54-45ad-8a09-8456f27266e2" alt="" height="650" width="350"/>
 
 ## Getting Started
 
